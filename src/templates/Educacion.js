@@ -20,7 +20,7 @@ export default class Educacion extends Component {
             imagen="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.alliancevending.es%2Fwp-content%2Fuploads%2F2019%2F03%2F42227371-1a91-4977-b73a-97615e8162c0.jpeg&f=1&nofb=1"
             web="https://telecos.upc.edu/es"
         />
-        return (
+        return(
             <nav className="educacion">
                 { title }
                 <ul>
@@ -51,7 +51,7 @@ function Estudios(props) {
         <div className="estudios" id={props.id}>
             <h2>{props.titulo}:</h2>
             <p><a href={props.web}>{props.centro}</a>, ({props.inicio}-{props.final})</p>
-            <img src={props.imagen} alt={props.centro}></img>
+            <img src={props.imagen} alt={props.centro} />
         </div>
     )
 }
