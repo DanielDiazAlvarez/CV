@@ -1,11 +1,11 @@
-import logo from './icons/color/linux.png';
-import './App.css';
-import Navbar from './templates/Navbar.js'
+import Navbar from './templates/Navbar'
+import Educacion from './templates/Educacion'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Educacion />
     </div>
   );
 }
